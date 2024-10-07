@@ -48,7 +48,7 @@ function Membership() {
           />
 
           <motion.div
-            className="absolute -top-16 -left-[5rem] w-[450px] h-[450px] bg-blue-200 rounded-full curved-edge z-20"
+            className="absolute -top-16 -left-[5rem] w-[450px] h-[450px] bg-[#A7B5FC] rounded-full curved-edge z-20"
             variants={{
               hidden: { scale: 0, opacity: 0, x: "-100%" },
               visible: { scale: 1, opacity: 1, x: "0%" },
