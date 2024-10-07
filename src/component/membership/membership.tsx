@@ -123,7 +123,7 @@ function Membership() {
 
         <div className="h-[350px] w-[550px] overflow-hidden relative rounded-lg">
           <motion.div
-            className="absolute -top-4 -left-[35%] bg-purple-900/60 rounded-full w-[400px] h-[400px] z-30"
+            className="absolute -top-16 -left-[40%] bg-purple-900/60 rounded-full w-[450px] h-[450px] z-30"
             variants={{
               hidden: { scale: 0, opacity: 0, x: "-100%" },
               visible: { scale: 1, opacity: 1, x: "0%" },
@@ -133,7 +133,7 @@ function Membership() {
             transition={{ duration: 1.5, ease: "easeInOut", delay: 0.3 }}
           />
           <motion.div
-            className="absolute -bottom-40 -right-[6rem] border-2 border-white rounded-full w-[400px] h-[400px] z-30"
+            className="absolute -bottom-40 -right-[5rem] border-2 border-white rounded-full w-[420px] h-[420px] z-30"
             style={{ transformOrigin: "bottom right" }}
             variants={{
               hidden: { scale: 0.5, opacity: 0, x: "0%", y: "0%" },

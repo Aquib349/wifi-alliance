@@ -6,17 +6,17 @@ import { CircleArrowRight } from "lucide-react";
 const Welcome: React.FC = () => {
   return (
     <>
-      <div className="relative bg-[#160835] flex flex-col justify-center items-center h-[650px] overflow-hidden">
+      <div className="relative bg-[#160835] flex flex-col justify-center items-center h-screen overflow-hidden">
         {/* Left-Top Circle */}
         <motion.div
-          className="absolute -top-[7.5rem] -left-[7.5rem] border-2 border-white rounded-full w-[750px] h-[750px] z-20"
+          className="absolute -top-[7.5rem] -left-[7.5rem] border-2 border-white rounded-full w-[850px] h-[850px] z-20"
           variants={{
             hidden: { scale: 0, opacity: 0, x: "-50%", y: "-50%" },
             visible: { scale: 1, opacity: 1, x: "0%", y: "0%" },
           }}
           initial="hidden"
           animate="visible"
-          transition={{ duration: 1.5, ease: "easeInOut" }}
+          transition={{ duration: 1.5, ease: "easeInOut", delay: 0.1 }}
         />
 
         {/* Right-Top Circle */}
@@ -36,13 +36,13 @@ const Welcome: React.FC = () => {
               height: 1100,
               scale: 1,
               opacity: 1,
-              x: "40%",
-              y: "-65%",
+              x: "30%",
+              y: "-58%",
             },
           }}
           initial="hidden"
           animate="visible"
-          transition={{ duration: 1.5, ease: "easeInOut", delay: 0.1 }}
+          transition={{ duration: 1.5, ease: "easeInOut", delay: 0.2 }}
           style={{
             transformOrigin: "top right",
             backgroundImage: 'url("/assets/iStock-1305282522.jpg")',
@@ -60,19 +60,19 @@ const Welcome: React.FC = () => {
           }}
           initial="hidden"
           animate="visible"
-          transition={{ duration: 1.5, ease: "easeInOut", delay: 1.5 }}
+          transition={{ duration: 1.5, ease: "easeInOut", delay: 2 }}
         />
 
         {/* Text Content */}
-        <motion.div
-          className=" text-white mt-10 z-20"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 2, duration: 1.5 }}
-          style={{ width: "90%" }}
-        >
-          <div className="grid grid-cols-2">
-            <div className="space-y-6">
+
+        <div className="grid grid-cols-2 mt-10 z-20 text-white w-[90%]">
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 2, duration: 1.2 }}
+            style={{ width: "90%" }}
+          >
+            <div className="space-y-6 mt-16">
               <h1 className="text-[2.5rem] leading-[2.8rem] font-bold poppins-medium ">
                 Wi-Fi Alliance - <br />
                 connecting everyone <br />
@@ -85,6 +85,17 @@ const Welcome: React.FC = () => {
                 economic impact
               </p>
             </div>
+            <Button className="mt-4 bg-[#FFCD2E] text-black rounded-full hover:bg-yellow-500">
+              Our Story
+            </Button>
+          </motion.div>
+          <motion.div
+            className=" text-white mt-10 z-20"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 2.5, duration: 1.5 }}
+            style={{ width: "90%" }}
+          >
             <div className="absolute bottom-4 right-14 z-20 text-white">
               <div className="flex gap-8">
                 <div className="space-y-3 border-r pr-4">
@@ -114,11 +125,8 @@ const Welcome: React.FC = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <Button className="mt-4 bg-[#FFCD2E] text-black rounded-full hover:bg-yellow-500">
-            Our Story
-          </Button>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
     </>
   );
