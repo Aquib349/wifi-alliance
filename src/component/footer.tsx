@@ -5,23 +5,29 @@ function Footer() {
   return (
     <>
       <div className="footer-component">
-        <div className="main text-sm bg-[#e6f0ff]">
+        <div className="main text-sm bg-[#D9E2FF]">
           <div className="p-6 w-[90%] m-auto flex justify-evenly">
-            <h1 className="text-xl font-medium">H2 2 Column Call to Action</h1>
+            <h1 className="text-xl font-medium text-[#2C106A]">
+              H2 2 Column Call to Action
+            </h1>
             <div className="border-l border-slate-300 space-y-1 pl-6">
-              <p className="font-medium">More about Advocacy and Regulatory</p>
+              <p className="font-medium text-[#2C106A]">
+                More about Advocacy and Regulatory
+              </p>
               <p className="text-xs">Lorem ipsum dolor sit amet.</p>
               <p className="flex items-center gap-2">
                 Learn More
-                <CircleChevronRight className="text-[#2c1262]" size={18} />
+                <CircleChevronRight className="text-[#A7B5FE]" size={18} />
               </p>
             </div>
             <div className="space-y-1 border-l border-slate-300 pl-6">
-              <p className="font-medium">Get Started with WIFI Alliance</p>
+              <p className="font-medium text-[#2C106A]">
+                Get Started with WIFI Alliance
+              </p>
               <p className="">Lorem ipsum dolor sit amet.</p>
               <p className="flex items-center gap-2">
                 Learn More
-                <CircleChevronRight className="text-[#2c1262]" size={18} />
+                <CircleChevronRight className="text-[#A7B5FE]" size={18} />
               </p>
             </div>
           </div>

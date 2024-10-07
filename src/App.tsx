@@ -10,7 +10,7 @@ import Footer from "./component/footer";
 const App: React.FC = () => {
   return (
     <>
-      <div className="bg-red-50">
+      <div className="bg-[#FFFCF8]">
         <section className="navbar">
           <Navbar />
           <Welcome />

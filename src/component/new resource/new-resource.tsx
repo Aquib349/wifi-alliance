@@ -43,8 +43,8 @@ const NewResource: React.FC = () => {
               <h1 className="text-2xl poppins-semibold">
                 H2 Featured News and Resources
               </h1>
-              <p className="flex items-center gap-2">
-                View all news <CircleArrowRight size={20} />
+              <p className="flex items-center gap-2 text-[#2C106A]">
+                View all news <CircleArrowRight size={20} className="text-[#a7B5FE]"/>
               </p>
             </div>
           </Fade>
@@ -74,7 +74,7 @@ const NewResource: React.FC = () => {
 
             {/* Second Animated Circle */}
             <motion.div
-              className="absolute -right-52 -bottom-52 border-[3px] border-blue-900 rounded-full w-[515px] h-[515px]"
+              className="absolute -right-52 -bottom-52 border-[3px] border-[#2C106A] rounded-full w-[515px] h-[515px]"
               variants={{
                 hidden: { scale: 0.005, opacity: 0 },
                 visible: { scale: 1, opacity: 1 },
@@ -91,10 +91,10 @@ const NewResource: React.FC = () => {
           {/* Descriptions */}
           <Fade delay={200}>
             <div className="descriptions mt-4">
-              <h1 className="text-xl poppins-semibold">
+              <h1 className="text-xl poppins-semibold text-[#2C106A]">
                 H3 Resource Title Lorem Ipsum
               </h1>
-              <p className="text-xs">
+              <p className="text-xs text-[#1F1F1F]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
                 sed.
               </p>
@@ -105,34 +105,34 @@ const NewResource: React.FC = () => {
         {/* Right side component */}
         <Fade delay={200}>
           <div className="mt-12">
-            <h4 className="text-lg font-semibold text-[#2c1262] mb-4">
+            <h4 className="text-lg font-semibold text-[#2C106A] mb-4">
               Other News
             </h4>
             <div className="border-t border-gray-300 pt-4">
               <div className="mb-4">
                 <p className="text-sm font-bold text-gray-600">Press Release</p>
-                <a href="#" className="text-sm text-[#2c1262] hover:underline">
+                <a href="#" className="text-sm text-[#2C106A] hover:underline">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod.
                 </a>
               </div>
               <div className="mb-4">
                 <p className="text-sm font-bold text-gray-600">Blog</p>
-                <a href="#" className="text-sm text-[#2c1262] hover:underline">
+                <a href="#" className="text-sm text-[#2C106A] hover:underline">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod.
                 </a>
               </div>
               <div className="mb-4">
                 <p className="text-sm font-bold text-gray-600">Press Release</p>
-                <a href="#" className="text-sm text-[#2c1262] hover:underline">
+                <a href="#" className="text-sm text-[#2C106A] hover:underline">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod.
                 </a>
               </div>
               <div className="mb-4">
                 <p className="text-sm font-bold text-gray-600">Blog</p>
-                <a href="#" className="text-sm text-[#2c1262] hover:underline">
+                <a href="#" className="text-sm text-[#2C106A] hover:underline">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod.
                 </a>

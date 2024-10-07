@@ -9,7 +9,7 @@ import {
   SquareRadical,
   X,
 } from "lucide-react";
-import { motion } from "framer-motion"; // Import motion for animations
+import { motion } from "framer-motion";
 
 function KeySolution() {
   const cardData = [
@@ -62,10 +62,10 @@ function KeySolution() {
       <div className="w-[90%] mx-auto my-10 text-sm">
         {/* Heading */}
         <div className="text-center">
-          <h2 className="text-3xl font-bold text-[#2c1262]">
+          <h2 className="text-3xl font-bold text-[#2C106A]">
             H2 Key Solutions
           </h2>
-          <p className="text-gray-500 mt-4 max-w-[600px] mx-auto">
+          <p className="text-[#1F1F1F] mt-4 max-w-[600px] mx-auto">
             Lorem ipsum dolor sit amet, consetetur lorem ips sadipscing elitr,
             sed diam dolor nonumy eirmod. Lorem ipsum dolor sit amet, consetetur
             lorem ips sadipscing.
@@ -74,10 +74,10 @@ function KeySolution() {
 
         {/* Toggle Buttons */}
         <div className="flex justify-center space-x-4 mt-6">
-          <button className="bg-[#2c1262] text-white px-6 py-2 rounded-full focus:outline-none">
+          <button className="bg-[#5945A3] text-white px-6 py-2 rounded-full focus:outline-none">
             By Industry
           </button>
-          <button className="bg-[#d8d6ff] text-[#2c1262] px-6 py-2 rounded-full focus:outline-none">
+          <button className="bg-[#D9E2FF] text-[#2c1262] px-6 py-2 rounded-full focus:outline-none">
             By Technology
           </button>
         </div>
@@ -112,7 +112,7 @@ function KeySolution() {
                 }}
                 transition={{ duration: 0.8 }}
               >
-                <h3 className="text-lg font-bold text-[#2c1262] group-hover:text-white">
+                <h3 className="text-lg font-bold text-[#2C106A] group-hover:text-white">
                   {card.heading}
                 </h3>
                 <p className="text-gray-500 mt-2 text-xs group-hover:text-white">
@@ -135,7 +135,7 @@ function KeySolution() {
               <div
                 className={`absolute bottom-4 right-4 w-6 h-6 rounded-full flex justify-center items-center 
                 ${
-                  card.heading === "Operators" ? "bg-red-300" : "bg-purple-400"
+                  card.heading === "Operators" ? "bg-[#FFD89F]" : "bg-[#8F82CD]"
                 }`}
               >
                 {card.heading === "Operators" ? (

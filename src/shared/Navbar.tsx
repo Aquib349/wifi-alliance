@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
     <>
       <div className="text-sm w-full fixed top-0 left-0 z-50">
         {/* First Navbar (Main Navigation Links) */}
-        <nav className="bg-[#371779] py-1 px-12 flex justify-between items-center border-b">
+        <nav className="bg-[#2C106A] py-1 px-12 flex justify-between items-center border-b">
           {/* Search Bar */}
           <div className="flex items-center space-x-2 border bg-white rounded-full pr-1">
             <Input
@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
                 <span className="text-xs">loremipsum@gmail.com</span>
               </span>
               <Select>
-                <SelectTrigger className="w-[120px] bg-transparent border-0 font-medium focus:ring-0 focus:ring-offset-0">
+                <SelectTrigger className="w-[120px] bg-transparent text-xs border-0 font-medium focus:ring-0 focus:ring-offset-0">
                   <SelectValue placeholder="Translation" />
                 </SelectTrigger>
                 <SelectContent>
@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
         </nav>
 
         {/* Second Navbar (Search Bar and More Links) */}
-        <nav className="bg-[#371779] py-1 px-12 flex justify-between items-center">
+        <nav className="bg-[#2C106A] py-1 px-12 flex justify-between items-center">
           <div className="">
             <img
               src="assets/logo.png"
@@ -78,7 +78,7 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Navigation Links */}
-          <ul className="flex space-x-8 text-white font-medium text-xs uppercase">
+          <ul className="flex space-x-8 text-white font-medium text-xs">
             <li>
               <a href="#solutions" className="hover:text-gray-400">
                 Solutions

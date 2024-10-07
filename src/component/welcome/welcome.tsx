@@ -6,10 +6,10 @@ import { CircleArrowRight } from "lucide-react";
 const Welcome: React.FC = () => {
   return (
     <>
-      <div className="relative bg-[#160835] flex flex-col justify-center items-center h-screen overflow-hidden">
+      <div className="relative bg-[#130A32] flex flex-col justify-center items-center h-screen w-full overflow-hidden">
         {/* Left-Top Circle */}
         <motion.div
-          className="absolute -top-[7.5rem] -left-[7.5rem] border-2 border-white rounded-full w-[850px] h-[850px] z-20"
+          className="absolute -top-[7.5rem] -left-[7.5rem] border-2 border-white rounded-full w-[830px] h-[830px] z-20"
           variants={{
             hidden: { scale: 0, opacity: 0, x: "-50%", y: "-50%" },
             visible: { scale: 1, opacity: 1, x: "0%", y: "0%" },
@@ -53,7 +53,7 @@ const Welcome: React.FC = () => {
 
         {/* Left-Bottom Circle */}
         <motion.div
-          className="absolute -bottom-[24rem] -left-[22rem] translate-x-[-50%] translate-y-[50%] bg-[#2c1262] rounded-full w-[700px] h-[700px] z-10" // Lower z-index
+          className="absolute -bottom-[24rem] -left-[22rem] translate-x-[-50%] translate-y-[50%] bg-[#2C106A] rounded-full w-[700px] h-[700px] z-10"
           variants={{
             hidden: { scale: 0, opacity: 0, x: "-100%", y: "100%" },
             visible: { scale: 1, opacity: 1, x: "0%", y: "0%" },
@@ -100,7 +100,7 @@ const Welcome: React.FC = () => {
               <div className="flex gap-8">
                 <div className="space-y-3 border-r pr-4">
                   <p className="text-lg">
-                    Lack of spectrum jeoparadizes <br /> Europe's gigabit
+                    Lack of spectrum jeopardizes <br /> Europe's gigabit
                     connectivity goals
                   </p>
                   <div className="text-xs flex items-center gap-3">

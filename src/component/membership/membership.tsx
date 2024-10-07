@@ -95,7 +95,7 @@ function Membership() {
           </ul>
           <p className="flex items-center gap-2 mt-4">
             Learn More
-            <CircleChevronRight className="text-yellow-400" size={20} />
+            <CircleChevronRight className="text-yellow-400 cursor-pointer" size={20} />
           </p>
         </div>
       </div>
@@ -115,9 +115,9 @@ function Membership() {
               labore et dolore aliquyam erat, sed diam voluptua.
             </li>
           </ul>
-          <p className="flex items-center gap-2 mt-4 text-yellow-400">
+          <p className="flex items-center gap-2 mt-4">
             Learn More
-            <CircleChevronRight size={20} />
+            <CircleChevronRight size={20} className="text-yellow-400 cursor-pointer"/>
           </p>
         </div>
 

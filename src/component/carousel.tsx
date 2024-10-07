@@ -66,7 +66,7 @@ function CarouselSection() {
                   <div className="p-1">
                     <Card className="w-full shadow-none border-0 bg-transparent">
                       <CardContent>
-                        <div className="rounded-tl-lg bg-[#e6f0ff] text-sm flex">
+                        <div className="rounded-tl-lg bg-[#D9E2FF] text-sm flex">
                           <div className="left-content w-2/3 m-8">
                             <blockquote className="font-medium text-[#2c1262] leading-relaxed text-lg poppins-italic">
                               "Lorem ipsum dolor sit amet, consetetur sadipscing
@@ -156,7 +156,7 @@ function CarouselSection() {
                           </div>
                         </div>
                         <Fade delay={200}>
-                          <div className="bg-[#2c1262] text-white w-[68.5%] grid grid-cols-2 gap-4 p-4 rounded-b-xl">
+                          <div className="bg-[#2C106A] text-white w-[68.5%] grid grid-cols-2 gap-4 p-4 rounded-b-xl">
                             <div className="flex gap-2">
                               <h3 className="text-3xl font-bold text-yellow-400">
                                 2m
@@ -185,8 +185,8 @@ function CarouselSection() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="bg-blue-100" />
-            <CarouselNext className="bg-blue-100" />
+            <CarouselPrevious className="bg-[#A7B5FE]" />
+            <CarouselNext className="bg-[#A7B5FE]" />
           </Carousel>
         </div>
       </div>
