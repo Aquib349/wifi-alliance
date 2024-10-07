@@ -6,7 +6,7 @@ import { CircleArrowRight } from "lucide-react";
 const Welcome: React.FC = () => {
   return (
     <>
-      <div className="relative bg-[#111133] flex flex-col justify-center items-center h-[650px] overflow-hidden">
+      <div className="relative bg-[#160835] flex flex-col justify-center items-center h-[650px] overflow-hidden">
         {/* Left-Top Circle */}
         <motion.div
           className="absolute -top-[7.5rem] -left-[7.5rem] border-2 border-white rounded-full w-[750px] h-[750px] z-20"
@@ -108,14 +108,14 @@ const Welcome: React.FC = () => {
                     learn why 6 Ghz is crucial{" "}
                     <CircleArrowRight
                       size={20}
-                      className="text-yellow-400 cursor-pointer"
+                      className="text-[#FFCD2E] cursor-pointer"
                     />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <Button className="mt-4 bg-yellow-400 text-black rounded-full hover:bg-yellow-500">
+          <Button className="mt-4 bg-[#FFCD2E] text-black rounded-full hover:bg-yellow-500">
             Our Story
           </Button>
         </motion.div>

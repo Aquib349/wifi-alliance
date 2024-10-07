@@ -27,7 +27,7 @@ function Footer() {
           </div>
         </div>
 
-        <footer className="bg-[#11022c] text-white py-8 text-sm">
+        <footer className="bg-[#160835] text-white py-8 text-sm">
           <div className="w-[90%] m-auto">
             <div className="flex justify-between pb-16">
               <img
@@ -127,7 +127,7 @@ function Footer() {
                 <div className="right">
                   <a
                     href="#"
-                    className="bg-yellow-400 text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-300"
+                    className="bg-[#FFCD2E] text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-300"
                   >
                     Contact Us
                   </a>

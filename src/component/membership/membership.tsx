@@ -48,7 +48,7 @@ function Membership() {
           />
 
           <motion.div
-            className="absolute -top-16 -left-[5rem] w-[450px] h-[450px] bg-blue-400 rounded-full curved-edge z-20"
+            className="absolute -top-16 -left-[5rem] w-[450px] h-[450px] bg-blue-200 rounded-full curved-edge z-20"
             variants={{
               hidden: { scale: 0, opacity: 0, x: "-100%" },
               visible: { scale: 1, opacity: 1, x: "0%" },
@@ -73,9 +73,9 @@ function Membership() {
             src="assets/large-iStock-1423632920.jpg"
             alt="image"
             className="w-[500px] h-[320px] rounded-lg relative"
-            initial={{ opacity: 0 }} // Start with low opacity
-            animate={inView ? { opacity: 1 } : { opacity: 0 }} // Animate to full opacity when in view
-            transition={{ duration: 1.5, ease: "easeInOut", delay: 0.2 }} // Transition over 1.5 seconds
+            initial={{ opacity: 0.2 }}
+            animate={inView ? { opacity: 1 } : { opacity: 0.2 }}
+            transition={{ duration: 1.2, ease: "easeInOut", delay: 0.2 }}
           />
         </div>
 
@@ -148,9 +148,9 @@ function Membership() {
             src="assets/iStock-1327072542.jpg"
             alt="Certification"
             className="rounded-lg h-[350px] w-full"
-            initial={{ opacity: 0 }}
-            animate={inView ? { opacity: 1 } : { opacity: 0 }}
-            transition={{ duration: 1.5, ease: "easeInOut", delay: 0.3 }}
+            initial={{ opacity: 0.2 }}
+            animate={inView ? { opacity: 1 } : { opacity: 0.2 }}
+            transition={{ duration: 1.2, ease: "easeInOut", delay: 0.4 }}
           />
         </div>
       </div>
