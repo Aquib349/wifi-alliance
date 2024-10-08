@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { Button } from "../ui/button";
 import React from "react";
-import { CircleArrowRight } from "lucide-react";
+import { CircleChevronRight } from "lucide-react";
+import { IoIosArrowForward } from "react-icons/io";
 
 const Welcome: React.FC = () => {
   return (
@@ -21,7 +22,7 @@ const Welcome: React.FC = () => {
 
         {/* Right-Top Circle */}
         <motion.div
-          className="absolute top-32 right-60 rounded-full"
+          className="absolute top-32 right-60 rounded-full overflow-hidden"
           variants={{
             hidden: {
               scale: 0.005,
@@ -47,7 +48,9 @@ const Welcome: React.FC = () => {
             transformOrigin: "top right",
             backgroundImage: 'url("/assets/iStock-1305282522.jpg")',
             backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundPosition: "right center", // This helps ensure the right section of the image is shown
+            borderRadius: "50%", // Ensures the div remains perfectly circular
+            boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)", // Optional: adds a soft shadow for depth
           }}
         />
 
@@ -105,10 +108,7 @@ const Welcome: React.FC = () => {
                   </p>
                   <div className="text-xs flex items-center gap-3">
                     Read the latest edition{" "}
-                    <CircleArrowRight
-                      size={20}
-                      className="text-yellow-400 cursor-pointer"
-                    />
+                    <IoIosArrowForward className="text-[#2c1262] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
                   </div>
                 </div>
                 <div className="space-y-3">
@@ -117,10 +117,7 @@ const Welcome: React.FC = () => {
                   </p>
                   <div className="text-xs flex items-center gap-3">
                     learn why 6 Ghz is crucial{" "}
-                    <CircleArrowRight
-                      size={20}
-                      className="text-[#FFCD2E] cursor-pointer"
-                    />
+                    <IoIosArrowForward className="text-[#2c1262] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
                   </div>
                 </div>
               </div>

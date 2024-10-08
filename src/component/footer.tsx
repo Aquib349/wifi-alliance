@@ -1,5 +1,9 @@
-import { CircleChevronRight } from "lucide-react";
-import { Facebook, Linkedin, Youtube, Instagram, XCircle } from "lucide-react";
+import { IoIosArrowForward } from "react-icons/io";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { TiSocialLinkedin } from "react-icons/ti";
+import { FaYoutube } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io";
 
 function Footer() {
   return (
@@ -11,23 +15,23 @@ function Footer() {
               H2 2 Column Call to Action
             </h1>
             <div className="border-l border-slate-300 space-y-1 pl-6">
-              <p className="font-medium text-[#2C106A]">
+              <p className="font-semibold text-[#2C106A]">
                 More about Advocacy and Regulatory
               </p>
               <p className="text-xs">Lorem ipsum dolor sit amet.</p>
-              <p className="flex items-center gap-2">
+              <p className="flex items-center gap-2 pt-2 font-semibold">
                 Learn More
-                <CircleChevronRight className="text-[#A7B5FE]" size={18} />
+                <IoIosArrowForward className="text-[#2c1262] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
               </p>
             </div>
             <div className="space-y-1 border-l border-slate-300 pl-6">
-              <p className="font-medium text-[#2C106A]">
+              <p className="font-semibold text-[#2C106A]">
                 Get Started with WIFI Alliance
               </p>
-              <p className="">Lorem ipsum dolor sit amet.</p>
-              <p className="flex items-center gap-2">
+              <p className="text-xs">Lorem ipsum dolor sit amet.</p>
+              <p className="flex items-center gap-2 pt-2 font-semibold">
                 Learn More
-                <CircleChevronRight className="text-[#A7B5FE]" size={18} />
+                <IoIosArrowForward className="text-[#2c1262] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
               </p>
             </div>
           </div>
@@ -39,7 +43,7 @@ function Footer() {
               <img
                 src="assets/logo.png"
                 alt="Wi-Fi Alliance Logo"
-                className="w-[6rem]"
+                className="w-[4rem]"
               />
 
               {/* Center Section - Footer Navigation */}
@@ -88,26 +92,11 @@ function Footer() {
                 </p>
 
                 <div className="flex space-x-4 text-white mt-2">
-                  <XCircle
-                    size={22}
-                    className="hover:text-gray-400 cursor-pointer"
-                  />
-                  <Facebook
-                    size={22}
-                    className="hover:text-gray-400 cursor-pointer"
-                  />
-                  <Linkedin
-                    size={22}
-                    className="hover:text-gray-400 cursor-pointer"
-                  />
-                  <Youtube
-                    size={22}
-                    className="hover:text-gray-400 cursor-pointer"
-                  />
-                  <Instagram
-                    size={22}
-                    className="hover:text-gray-400 cursor-pointer"
-                  />
+                  <FaXTwitter className="hover:text-gray-400 cursor-pointer bg-white w-5 h-5 rounded-sm p-0.5 text-black" />
+                  <FaFacebookF className="hover:text-gray-400 cursor-pointer bg-white w-5 h-5 rounded-sm p-0.5 text-black" />
+                  <TiSocialLinkedin className="hover:text-gray-400 cursor-pointer bg-white w-5 h-5 rounded-sm p-0.5 text-black" />
+                  <FaYoutube className="hover:text-gray-400 cursor-pointer bg-white w-5 h-5 rounded-sm p-0.5 text-black" />
+                  <IoLogoInstagram className="hover:text-gray-400 cursor-pointer bg-white w-5 h-5 rounded-sm p-0.5 text-black" />
                 </div>
               </div>
               <div className="">

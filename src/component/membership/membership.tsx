@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { CircleChevronRight } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import { IoIosArrowForward } from "react-icons/io";
 
 function Membership() {
   const [inView, setInView] = useState(false);
@@ -93,9 +94,9 @@ function Membership() {
               labore et dolore aliquyam erat, sed diam voluptua.
             </li>
           </ul>
-          <p className="flex items-center gap-2 mt-4">
+          <p className="flex items-center gap-2 mt-4 text-[#2C106A] font-bold">
             Learn More
-            <CircleChevronRight className="text-yellow-400 cursor-pointer" size={20} />
+            <IoIosArrowForward className="text-[#2c1262] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
           </p>
         </div>
       </div>
@@ -115,9 +116,9 @@ function Membership() {
               labore et dolore aliquyam erat, sed diam voluptua.
             </li>
           </ul>
-          <p className="flex items-center gap-2 mt-4">
+          <p className="flex items-center gap-2 mt-4 text-[#2C106A] font-bold">
             Learn More
-            <CircleChevronRight size={20} className="text-yellow-400 cursor-pointer"/>
+            <IoIosArrowForward className="text-[#2c1262] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
           </p>
         </div>
 

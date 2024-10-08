@@ -1,13 +1,13 @@
 import React from "react";
 import { Button } from "../component/ui/button";
 import { Input } from "../component/ui/input";
-import { CircleUserRound } from "lucide-react";
+import { FaUserCircle } from "react-icons/fa";
+import { TfiWorld } from "react-icons/tfi";
 import {
   Select,
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "../component/ui/select";
@@ -43,11 +43,12 @@ const Navbar: React.FC = () => {
             </Button>
             <div className="flex items-center space-x-2 text-white">
               <span className="flex items-center space-x-1">
-                <CircleUserRound />
+                <FaUserCircle className="w-5 h-5" />
                 <span className="text-xs">loremipsum@gmail.com</span>
               </span>
               <Select>
-                <SelectTrigger className="w-[120px] bg-transparent text-xs border-0 font-medium focus:ring-0 focus:ring-offset-0">
+                <SelectTrigger className="w-[130px] bg-transparent text-xs border-0 font-medium focus:ring-0 focus:ring-offset-0">
+                  <TfiWorld className="w-4 h-4"/>
                   <SelectValue placeholder="Translation" />
                 </SelectTrigger>
                 <SelectContent>
@@ -73,7 +74,7 @@ const Navbar: React.FC = () => {
             <img
               src="assets/logo.png"
               alt="Wi-Fi Alliance Logo"
-              style={{ width: "5rem" }}
+              style={{ width: "4rem" }}
             />
           </div>
 

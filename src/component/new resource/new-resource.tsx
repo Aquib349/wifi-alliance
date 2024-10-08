@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
-import { CircleArrowRight } from "lucide-react";
+import { CircleArrowRight, CircleChevronRight } from "lucide-react";
+import { IoIosArrowForward } from "react-icons/io";
 
 const NewResource: React.FC = () => {
   const [inView, setInView] = useState(false);
@@ -44,7 +45,8 @@ const NewResource: React.FC = () => {
                 H2 Featured News and Resources
               </h1>
               <p className="flex items-center gap-2 text-[#2C106A]">
-                View all news <CircleArrowRight size={20} className="text-[#a7B5FE]"/>
+                View all news{" "}
+                <IoIosArrowForward className="text-[#2c1262] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
               </p>
             </div>
           </Fade>
@@ -110,29 +112,29 @@ const NewResource: React.FC = () => {
             </h4>
             <div className="border-t border-gray-300 pt-4">
               <div className="mb-4">
-                <p className="text-sm font-bold text-gray-600">Press Release</p>
-                <a href="#" className="text-sm text-[#2C106A] hover:underline">
+                <p className="text-sm text-gray-600">Press Release</p>
+                <a href="#" className="text-sm text-[#2C106A] hover:underline font-semibold">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod.
                 </a>
               </div>
               <div className="mb-4">
-                <p className="text-sm font-bold text-gray-600">Blog</p>
-                <a href="#" className="text-sm text-[#2C106A] hover:underline">
+                <p className="text-sm text-gray-600">Blog</p>
+                <a href="#" className="text-sm text-[#2C106A] hover:underline font-semibold">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod.
                 </a>
               </div>
               <div className="mb-4">
-                <p className="text-sm font-bold text-gray-600">Press Release</p>
-                <a href="#" className="text-sm text-[#2C106A] hover:underline">
+                <p className="text-sm text-gray-600">Press Release</p>
+                <a href="#" className="text-sm text-[#2C106A] hover:underline font-semibold">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod.
                 </a>
               </div>
               <div className="mb-4">
-                <p className="text-sm font-bold text-gray-600">Blog</p>
-                <a href="#" className="text-sm text-[#2C106A] hover:underline">
+                <p className="text-sm text-gray-600">Blog</p>
+                <a href="#" className="text-sm text-[#2C106A] hover:underline font-semibold">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod.
                 </a>

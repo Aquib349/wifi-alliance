@@ -11,6 +11,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { CircleChevronRight, Play } from "lucide-react";
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
+import { IoIosArrowForward } from "react-icons/io";
 
 function CarouselSection() {
   const plugin = React.useRef(
@@ -89,10 +90,7 @@ function CarouselSection() {
                                 </span>
                                 <div className="flex items-center font-medium gap-2">
                                   Read their story
-                                  <CircleChevronRight
-                                    className="text-[#2c1262]"
-                                    size={20}
-                                  />
+                                  <IoIosArrowForward className="text-[#2c1262] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
                                 </div>
                               </div>
                             </div>
