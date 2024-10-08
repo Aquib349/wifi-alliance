@@ -104,7 +104,7 @@ const Welcome: React.FC = () => {
               <div className="flex gap-8">
                 <div className="space-y-3 border-r pr-4">
                   <p className="text-lg">
-                    Lack of spectrum jeopardizes <br /> Europe's gigabit
+                    Lack of Wi-Fi spectrum jeopardizes <br /> Europe's gigabit
                     connectivity goals
                   </p>
                   <div className="text-xs flex items-center gap-3">
