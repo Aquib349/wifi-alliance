@@ -43,14 +43,15 @@ const Welcome: React.FC = () => {
           }}
           initial="hidden"
           animate="visible"
-          transition={{ duration: 1.5, ease: "easeInOut", delay: 0.2 }}
+          transition={{ duration: 1.8, ease: "easeInOut", delay: 0.2 }}
           style={{
             transformOrigin: "top right",
             backgroundImage: 'url("/assets/iStock-1305282522.jpg")',
             backgroundSize: "cover",
-            backgroundPosition: "right center", // This helps ensure the right section of the image is shown
-            borderRadius: "50%", // Ensures the div remains perfectly circular
-            boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)", // Optional: adds a soft shadow for depth
+            backgroundPosition: "center right",
+            borderRadius: "50%",
+            boxShadow: "0px 8px 30px rgba(0, 0, 0, 0.3)",
+            filter: "brightness(1.1) contrast(1.2)",
           }}
         />
 
