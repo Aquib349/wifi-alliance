@@ -52,7 +52,7 @@ function CarouselSection() {
         ref={elementRef}
       >
         <div className="main mt-16">
-          <h2 className="text-3xl text-center font-bold text-[#2c1262] my-4">
+          <h2 className="text-3xl text-center font-bold text-[#2C106A] my-4">
             H2 Case study quote with optional testimonial vedio
           </h2>
           <Carousel
@@ -84,7 +84,7 @@ function CarouselSection() {
                                 John Doeington
                               </h4>
                               <div className="flex items-center mt-1 gap-3">
-                                <p className="text-[#2C106A]">Company Name</p>
+                                <p className="text-[#2C106A] font-medium">Company Name</p>
                                 <span>
                                   -----------------------------------------
                                 </span>
@@ -183,8 +183,8 @@ function CarouselSection() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="bg-[#A7B5FE]" />
-            <CarouselNext className="bg-[#A7B5FE]" />
+            <CarouselPrevious className="bg-[#A7B5FE] text-[#2C106A]" />
+            <CarouselNext className="bg-[#A7B5FE] text-[#2C106A]" />
           </Carousel>
         </div>
       </div>
