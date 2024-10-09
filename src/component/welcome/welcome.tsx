@@ -9,14 +9,18 @@ const Welcome: React.FC = () => {
       <div className="relative bg-[#130A32] flex flex-col justify-center items-center h-screen w-full overflow-hidden">
         {/* Left-Top Circle */}
         <motion.div
-          className="absolute -top-[7.5rem] -left-[7.5rem] border-2 border-white rounded-full w-[830px] h-[830px] z-20"
+          className="absolute -top-[7.5rem] -left-[7.5rem] border-2 border-white rounded-full w-[845px] h-[845px] z-20"
           variants={{
             hidden: { scale: 0, opacity: 0, x: "-50%", y: "-50%" },
             visible: { scale: 1, opacity: 1, x: "0%", y: "0%" },
           }}
           initial="hidden"
           animate="visible"
-          transition={{ duration: 1.5, ease: "easeInOut", delay: 0.1 }}
+          transition={{
+            duration: 1.9,
+            ease: [0.45, 0.05, 0.55, 0.95],
+            delay: 0.1,
+          }}
         />
 
         {/* Right-Top Circle */}
@@ -24,7 +28,7 @@ const Welcome: React.FC = () => {
           className="absolute top-32 right-60 rounded-full overflow-hidden"
           variants={{
             hidden: {
-              scale: 0.005,
+              scale: 0.01,
               width: 3,
               height: 3,
               opacity: 0,
@@ -42,7 +46,11 @@ const Welcome: React.FC = () => {
           }}
           initial="hidden"
           animate="visible"
-          transition={{ duration: 1.8, ease: "easeInOut", delay: 0.2 }}
+          transition={{
+            duration: 1.9,
+            ease: [0.83, 0, 0.17, 1],
+            delay: 0.2,
+          }}
           style={{
             transformOrigin: "top right",
             backgroundImage: 'url("/assets/iStock-1305282522.jpg")',
@@ -54,20 +62,7 @@ const Welcome: React.FC = () => {
           }}
         />
 
-        {/* Left-Bottom Circle */}
-        <motion.div
-          className="absolute -bottom-[24rem] -left-[22rem] translate-x-[-50%] translate-y-[50%] bg-[#2C106A] rounded-full w-[700px] h-[700px] z-10"
-          variants={{
-            hidden: { scale: 0, opacity: 0, x: "-100%", y: "100%" },
-            visible: { scale: 1, opacity: 1, x: "0%", y: "0%" },
-          }}
-          initial="hidden"
-          animate="visible"
-          transition={{ duration: 1.5, ease: "easeInOut", delay: 2 }}
-        />
-
         {/* Text Content */}
-
         <div className="grid grid-cols-2 mt-10 z-20 text-white w-[90%]">
           <motion.div
             initial={{ opacity: 0 }}
@@ -96,7 +91,7 @@ const Welcome: React.FC = () => {
             className=" text-white mt-10 z-20"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 2.5, duration: 1.5 }}
+            transition={{ delay: 3, duration: 1.5 }}
             style={{ width: "90%" }}
           >
             <div className="absolute bottom-4 right-14 z-20 text-white">

@@ -183,8 +183,8 @@ function CarouselSection() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="bg-[#A7B5FE] text-[#2C106A]" />
-            <CarouselNext className="bg-[#A7B5FE] text-[#2C106A]" />
+            <CarouselPrevious className="border-0" />
+            <CarouselNext className="bg-[#A7B5FE]" />
           </Carousel>
         </div>
       </div>
