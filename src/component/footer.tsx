@@ -11,7 +11,7 @@ function Footer() {
       <div className="footer-component">
         <div className="main text-sm bg-[#D9E2FF]">
           <div className="p-6 w-[90%] m-auto flex justify-evenly">
-            <h1 className="text-xl font-medium text-[#2C106A]">
+            <h1 className="text-xl font-bold text-[#2C106A]">
               H2 2 Column Call to Action
             </h1>
             <div className="border-l border-slate-300 space-y-1 pl-6">
@@ -19,9 +19,9 @@ function Footer() {
                 More about Advocacy and Regulatory
               </p>
               <p className="text-xs">Lorem ipsum dolor sit amet.</p>
-              <p className="flex items-center gap-2 pt-2 font-semibold">
+              <p className="flex items-center gap-2 pt-2 font-semibold text-[#2C106A]">
                 Learn More
-                <IoIosArrowForward className="text-[#2c1262] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
+                <IoIosArrowForward className="text-[#2C106A] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
               </p>
             </div>
             <div className="space-y-1 border-l border-slate-300 pl-6">
@@ -29,9 +29,9 @@ function Footer() {
                 Get Started with WIFI Alliance
               </p>
               <p className="text-xs">Lorem ipsum dolor sit amet.</p>
-              <p className="flex items-center gap-2 pt-2 font-semibold">
+              <p className="flex items-center gap-2 pt-2 font-semibold text-[#2C106A]">
                 Learn More
-                <IoIosArrowForward className="text-[#2c1262] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
+                <IoIosArrowForward className="text-[#2C106A] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
               </p>
             </div>
           </div>

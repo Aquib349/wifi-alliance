@@ -96,7 +96,7 @@ function KeySolution() {
             >
               {/* Icon */}
               <motion.div
-                className="w-9 h-9 bg-yellow-400 rounded-full flex justify-center items-center group-hover:bg-transparent"
+                className="w-9 h-9 bg-[#FFCD2E] rounded-full flex justify-center items-center group-hover:bg-transparent"
                 initial={{ opacity: 1 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.3 }}
@@ -115,7 +115,7 @@ function KeySolution() {
                 <h3 className="text-lg font-bold text-[#2C106A] group-hover:text-white">
                   {card.heading}
                 </h3>
-                <p className="text-gray-500 mt-2 text-xs group-hover:text-white">
+                <p className="text-[#1F1F1F] mt-2 text-xs group-hover:text-white">
                   {card.description}
                 </p>
               </motion.div>

@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "../ui/button";
 import React from "react";
-import { CircleChevronRight } from "lucide-react";
 import { IoIosArrowForward } from "react-icons/io";
 
 const Welcome: React.FC = () => {

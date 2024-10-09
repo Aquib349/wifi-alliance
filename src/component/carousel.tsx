@@ -84,11 +84,11 @@ function CarouselSection() {
                                 John Doeington
                               </h4>
                               <div className="flex items-center mt-1 gap-3">
-                                <p className="text-gray-500">Company Name</p>
+                                <p className="text-[#2C106A]">Company Name</p>
                                 <span>
                                   -----------------------------------------
                                 </span>
-                                <div className="flex items-center font-medium gap-2">
+                                <div className="flex items-center gap-2 font-semibold text-[#2C106A]">
                                   Read their story
                                   <IoIosArrowForward className="text-[#2c1262] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
                                 </div>

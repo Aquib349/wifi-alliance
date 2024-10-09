@@ -88,12 +88,15 @@ function Membership() {
             erat, sed diam voluptua.
           </p>
           <ul className="mt-4 text-gray-600">
-            <li className="mb-2">• Lorem ipsum dolor sit amet, consectetur</li>
-            <li className="mb-2">
-              • Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              labore et dolore aliquyam erat, sed diam voluptua.
+            <li className="mb-2 before:content-['•'] before:text-[#8b84cb] before:text-4xl flex items-center gap-2">
+              Lorem ipsum dolor sit amet, consectetur
+            </li>
+            <li className="mb-2 before:content-['•'] before:text-[#8b84cb] before:text-4xl flex items-center gap-2">
+              Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore aliquyam erat, sed diam voluptua.
             </li>
           </ul>
+
           <p className="flex items-center gap-2 mt-4 text-[#2C106A] font-bold">
             Learn More
             <IoIosArrowForward className="text-[#2c1262] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
@@ -110,10 +113,12 @@ function Membership() {
             erat, sed diam voluptua.
           </p>
           <ul className="mt-4 text-gray-600">
-            <li className="mb-2">• Lorem ipsum dolor sit amet, consectetur</li>
-            <li className="mb-2">
-              • Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              labore et dolore aliquyam erat, sed diam voluptua.
+            <li className="mb-2 before:content-['•'] before:text-[#8b84cb] before:text-4xl flex items-center gap-2">
+              Lorem ipsum dolor sit amet, consectetur
+            </li>
+            <li className="mb-2 before:content-['•'] before:text-[#8b84cb] before:text-4xl flex items-center gap-2">
+              Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore aliquyam erat, sed diam voluptua.
             </li>
           </ul>
           <p className="flex items-center gap-2 mt-4 text-[#2C106A] font-bold">

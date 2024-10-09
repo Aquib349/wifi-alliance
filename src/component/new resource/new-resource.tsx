@@ -41,10 +41,10 @@ const NewResource: React.FC = () => {
         <div className="">
           <Fade delay={200}>
             <div className="heading-button flex items-center gap-8">
-              <h1 className="text-2xl poppins-semibold">
+              <h1 className="text-2xl poppins-semibold text-[#2C106A]">
                 H2 Featured News and Resources
               </h1>
-              <p className="flex items-center gap-2 text-[#2C106A]">
+              <p className="flex items-center gap-2 text-[#2C106A] font-semibold">
                 View all news{" "}
                 <IoIosArrowForward className="text-[#2c1262] w-4 p-0.5 h-4 rounded-full bg-[#A7B5FE]" />
               </p>
@@ -112,29 +112,41 @@ const NewResource: React.FC = () => {
             </h4>
             <div className="border-t border-gray-300 pt-4">
               <div className="mb-4">
-                <p className="text-sm text-gray-600">Press Release</p>
-                <a href="#" className="text-sm text-[#2C106A] hover:underline font-semibold">
+                <p className="text-sm text-[#5945A3]">Press Release</p>
+                <a
+                  href="#"
+                  className="text-sm text-[#2C106A] hover:underline font-semibold"
+                >
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod.
                 </a>
               </div>
               <div className="mb-4">
-                <p className="text-sm text-gray-600">Blog</p>
-                <a href="#" className="text-sm text-[#2C106A] hover:underline font-semibold">
+                <p className="text-sm text-[#5945A3]">Blog</p>
+                <a
+                  href="#"
+                  className="text-sm text-[#2C106A] hover:underline font-semibold"
+                >
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod.
                 </a>
               </div>
               <div className="mb-4">
-                <p className="text-sm text-gray-600">Press Release</p>
-                <a href="#" className="text-sm text-[#2C106A] hover:underline font-semibold">
+                <p className="text-sm text-[#5945A3]">Press Release</p>
+                <a
+                  href="#"
+                  className="text-sm text-[#2C106A] hover:underline font-semibold"
+                >
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod.
                 </a>
               </div>
               <div className="mb-4">
-                <p className="text-sm text-gray-600">Blog</p>
-                <a href="#" className="text-sm text-[#2C106A] hover:underline font-semibold">
+                <p className="text-sm text-[#5945A3]">Blog</p>
+                <a
+                  href="#"
+                  className="text-sm text-[#2C106A] hover:underline font-semibold"
+                >
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod.
                 </a>
