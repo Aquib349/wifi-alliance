@@ -62,7 +62,7 @@ function CarouselSection() {
             onMouseLeave={plugin.current.reset}
           >
             <CarouselContent className="h-full">
-              {Array.from({ length: 1 }).map((_, index) => (
+              {Array.from({ length: 3 }).map((_, index) => (
                 <CarouselItem key={index} className="h-full">
                   <div className="p-1">
                     <Card className="w-full shadow-none border-0 bg-transparent">
@@ -84,7 +84,9 @@ function CarouselSection() {
                                 John Doeington
                               </h4>
                               <div className="flex items-center mt-1 gap-3">
-                                <p className="text-[#2C106A] font-medium">Company Name</p>
+                                <p className="text-[#2C106A] font-medium">
+                                  Company Name
+                                </p>
                                 <span>
                                   -----------------------------------------
                                 </span>
@@ -96,7 +98,6 @@ function CarouselSection() {
                             </div>
                           </div>
 
-                          {/* Right side - Image with Play Button */}
                           <div className="relative w-1/3 overflow-hidden rounded-r-lg flex justify-end">
                             <motion.div
                               className="absolute -top-[7.5rem] -left-[7.5rem] border-2 border-black rounded-full w-[230px] h-[230px] z-20"
@@ -183,8 +184,8 @@ function CarouselSection() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="border-0" />
-            <CarouselNext className="bg-[#A7B5FE]" />
+            <CarouselPrevious className="" />
+            <CarouselNext className="" />
           </Carousel>
         </div>
       </div>
